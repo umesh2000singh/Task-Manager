@@ -1,6 +1,13 @@
 let btn=document.getElementById("btn") //button
 let task=document.getElementById("list-container")// task list
 let input=document.getElementById("input-bar"); // task input field
+let showAllBtn = document.getElementById("showAll"); // Show all tasks button
+let showActiveBtn = document.getElementById("showActive"); // Show active tasks button
+let showCompletedBtn = document.getElementById("showCompleted"); // Show completed tasks button
+
+//show saved tasks
+showTasks();
+
 
 let messageBox=document.getElementById("message");
 //function to add the task
@@ -44,4 +51,32 @@ function saveData(){
 function showTasks(){
     task.innerHTML=localStorage.getItem("data");
 }
-showTasks();
+
+
+
+// Filter tasks by status
+showAllBtn.addEventListener("click", () => {
+    task.querySelectorAll("li").forEach((item) => {
+        item.style.display = "block";
+    });
+});
+
+showActiveBtn.addEventListener("click", () => {
+    task.querySelectorAll("li").forEach((item) => {
+        if (!item.classList.contains("check")) {
+            item.style.display = "block";
+        } else {
+            item.style.display = "none";
+        }
+    });
+});
+
+showCompletedBtn.addEventListener("click", () => {
+    task.querySelectorAll("li").forEach((item) => {
+        if (item.classList.contains("check")) {
+            item.style.display = "block";
+        } else {
+            item.style.display = "none";
+        }
+    });
+});

@@ -64,7 +64,7 @@ body {
     padding: 10px;
 }
 
-#btn{
+.btn{
     padding: 10px;
     border-radius: 50px;
     border: none;
@@ -72,6 +72,7 @@ body {
     color: white;
     width: 70px;
     cursor: pointer;
+    transition: all .3s;
 }
 ul li{
     position: relative;
@@ -121,7 +122,17 @@ ul li span:hover{
     color: white;
     background-color: #6e6c6c;
 }
-
+.btn:hover{
+    background-color: crimson;
+}
+.btn1{
+    width: 100px;
+}
+.filter{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 
 @media (max-width:768px) {
     .container{
