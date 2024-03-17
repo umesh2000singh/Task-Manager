@@ -34,12 +34,12 @@ Technologies used in the project:
 *   CSS
 *   JAVASCRIPT
 
-Usage
+<h2>Usage</h2>
 To use the Task Manager:
 
-Clone the repository to your local machine.
-Open the index.html file in your web browser.
-Start adding, completing, and managing your tasks!
+* Clone the repository to your local machine.
+* Open the index.html file in your web browser.
+* Start adding, completing, and managing your tasks!
 
-Contributing
+<h2>Contributing</h2>
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
