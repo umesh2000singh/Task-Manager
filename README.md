@@ -10,7 +10,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://drive.google.com/file/d/1toF1HHS0LSEFgM2bTtRF2o76Dev5qhqi/view?usp=drive_link" alt="project-screenshot" width="563" height="492/">
+![Screenshot 2024-03-17 232116](https://github.com/umesh2000singh/Task-Manager/assets/119116739/be6bb688-f193-40ba-9cc4-e48388f3c68a)
 
   
   
