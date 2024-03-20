@@ -29,6 +29,7 @@ body {
 }
 
 .container {
+    z-index: 100;
     margin-top: 5%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -74,7 +75,16 @@ body {
     cursor: pointer;
     transition: all .3s;
 }
+ul{
+    width: 500px;
+    /* background-color: white; */
+    padding: 10px;
+    border-radius: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+
+}
 ul li{
+
     position: relative;
     list-style: none;
     font-size: 17px;
