@@ -84,7 +84,6 @@ ul{
 
 }
 ul li{
-
     position: relative;
     list-style: none;
     font-size: 17px;
@@ -148,8 +147,8 @@ ul li span:hover{
     .container{
         width: 80vw;
     }
-    #input-bar{
-        width: 100%;
+    ul{
+        width: 80vw;
     }
     
 }
